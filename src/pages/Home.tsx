@@ -42,12 +42,12 @@ const Home: React.FC = () => {
             className="relative"
           >
             <img 
-              src="https://images.pexels.com/photos/5945669/pexels-photo-5945669.jpeg" 
-              alt="Organic jam jars and honey" 
-              className="rounded-lg shadow-lg"
+              src="/images/cherry-jam.jpg" 
+              alt="Organic cherry jam" 
+              className="rounded-lg shadow-lg w-full h-auto object-cover"
             />
-            <div className="absolute -bottom-8 -left-8 font-semibold bg-secondary p-4 rounded-lg shadow-lg hidden md:block">
-              <p className="font-lg text-primary">100% Organic</p>
+            <div className="absolute -bottom-6 -left-6 bg-primary text-white py-3 px-6 rounded-lg bg-burgundy-600 shadow-2xl transform rotate-3 z-10">
+              <p className="font-medium text-xl text-white">100% Organic</p>
               <p className="text-medium text-white">Ethically sourced ingredients</p>
             </div>
           </motion.div>
@@ -84,9 +84,9 @@ const Home: React.FC = () => {
             className="relative"
           >
             <img 
-              src="https://images.pexels.com/photos/5966239/pexels-photo-5966239.jpeg" 
-              alt="Artisanal jam making process" 
-              className="rounded-lg shadow-md"
+              src="/images/orange-jam.jpg" 
+              alt="Organic orange jam" 
+              className="rounded-lg shadow-md w-full h-auto object-cover"
             />
           </motion.div>
           
